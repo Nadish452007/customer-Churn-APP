@@ -3,7 +3,8 @@ import streamlit as st
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-df = pd.read_csv(" Customer-Churn.csv")
+df = pd.read_csv("C:/Users/Nadish/OneDrive/Desktop/customer churn/Customer-Churn.csv")
+
 
 st.markdown("<h1 style='text-align:center;'>Customer Churn APP</h1>",unsafe_allow_html=True)
 st.markdown("---")
