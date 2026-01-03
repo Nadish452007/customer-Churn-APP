@@ -4,8 +4,8 @@ import streamlit as st
 import os
 import pandas as pd
 
+loaded_model = pickle.load(open('Customer_churn.sav', 'rb'))
 
-loaded_model = pickle.load(open('C:/Users/Nadish/Downloads/Customer_churn.sav', 'rb'))
 
 st.markdown("<h1 style='text-align:center;'>Customer Churn Prediction</h1>", unsafe_allow_html=True)
 st.markdown("---")
